@@ -3,3 +3,25 @@
     margin: 0;
     background-color: #ffdf6f;
 }
+
+body {
+    height: 100vh;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ship-logo {
+    width: 10%;
+    min-width: 100px;
+    height: auto;
+}
+
+.main-logo {
+    max-width: 50%;
+    min-width: 400px;
+    height: auto;
+}
