@@ -92,4 +92,5 @@ footer {
 .fa-discord:hover {
     color: #7289DA;
     transform: scale(1.25);
+    transition: 0.3s;
 }
