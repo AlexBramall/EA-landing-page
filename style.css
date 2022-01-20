@@ -78,12 +78,14 @@ footer {
     color: #000;
     font-size: 1.75rem;
     cursor: pointer;
-    padding: 0 15px
+    padding: 0 15px;
+    transition: 0.3s;
 }
 
 .fa-twitter:hover {
     color: #1DA1F2;
     transform: scale(1.25);
+    transition: 0.3s;
 }
 
 
@@ -91,6 +93,3 @@ footer {
     color: #7289DA;
     transform: scale(1.25);
 }
-
-
-@media screen {}
