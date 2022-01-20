@@ -22,41 +22,56 @@ header {
 
 }
 
-.ship-logo {
-    width: 12%;
-    min-width: 100px;
+#ship-logo {
+    width: 6%;
+    min-width: 60px;
     height: auto;
+    /*
     transform: translateY(-100%);
-    animation: crash-landing 3s ease-in forwards 3 alternate;
+    animation: crash-landing 5s linear infinite;*/
 }
 
 .main-logo {
     width: 50%;
     min-width: 350px;
     height: auto;
-    -webkit-filter: drop-shadow(95px 95px 95px #000);
-    filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(-10px 180px 175px #000);
 }
 
-@keyframes crash-landing {}
+@keyframes crash-landing {
+    0% {
+        transform: translate(130px, 60px) rotate(0deg)
+    }
+
+    50% {
+        transform: translate(-5px, 120px) rotate(-12deg)
+    }
+
+    75% {
+        transform: translate(120px, -160px) rotate(-20deg)
+    }
+
+    100% {
+        transform: translate(130px, 60px) rotate(3deg)
+    }
+}
 
 footer {
-    font-family: 'Roboto',
-        sans-serif;
+
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: 0;
     margin-top: auto;
-    padding: 0 0 15px 0;
+    padding: 25px;
 }
 
 
 
 .fab {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     cursor: pointer;
-    padding: 0 10px
+    padding: 0 15px
 }
 
 .fa-twitter:hover {
