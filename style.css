@@ -32,10 +32,10 @@ header {
 }
 
 .main-logo {
-    width: 50%;
+    width: 40%;
     min-width: 350px;
     height: auto;
-    filter: drop-shadow(-60px 35px 35px #000);
+    filter: drop-shadow(-33px 30px 10px #00000030);
 }
 
 
@@ -75,6 +75,7 @@ footer {
 
 
 .fab {
+    color: #000;
     font-size: 1.75rem;
     cursor: pointer;
     padding: 0 15px
@@ -90,3 +91,6 @@ footer {
     color: #7289DA;
     transform: scale(1.25);
 }
+
+
+@media screen {}
