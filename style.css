@@ -23,38 +23,44 @@ header {
 }
 
 #ship-logo {
-    width: 6%;
-    min-width: 60px;
+    width: 7%;
+    min-width: 40px;
     height: auto;
-    /*
-    transform: translateY(-100%);
-    animation: crash-landing 5s linear infinite;*/
+    animation: crash-landing 10s ease-in-out infinite alternate;
+    padding-bottom: 4%;
+
 }
 
 .main-logo {
     width: 50%;
     min-width: 350px;
     height: auto;
-    filter: drop-shadow(-10px 180px 175px #000);
+    filter: drop-shadow(-60px 35px 35px #000);
 }
+
 
 @keyframes crash-landing {
     0% {
-        transform: translate(130px, 60px) rotate(0deg)
+        transform: translate(0%, 0%);
+    }
+
+    25% {
+        transform: translate(5%, 5%);
     }
 
     50% {
-        transform: translate(-5px, 120px) rotate(-12deg)
+        transform: translate(10%, 5%);
     }
 
     75% {
-        transform: translate(120px, -160px) rotate(-20deg)
+        transform: translate(0%, 15%);
     }
 
     100% {
-        transform: translate(130px, 60px) rotate(3deg)
+        transform: translate(0%, 0%);
     }
 }
+
 
 footer {
 
