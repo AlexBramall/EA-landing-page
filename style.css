@@ -18,30 +18,32 @@ body {
     margin: auto;
     display: flex;
     flex-direction: column;
+    height: auto;
 }
 
 
 
 #ship-logo {
-    display: flex;
-    position: absolute;
-    width: 7%;
+    width: 6vw;
+    min-width: 70px;
     height: auto;
-    margin: auto;
-    animation: crash-landing 10s ease-in-out infinite alternate;
+    animation: crash-landing 7s ease-in-out infinite alternate;
     filter: drop-shadow(-33px 30px 10px #00000030);
-    margin-left: 33%;
+    position: absolute;
+    margin-left: 5%;
 
 }
 
 .main-logo {
     display: flex;
-    width: 40%;
+    width: 50vw;
+    min-width: 475px;
     margin: auto;
     height: auto;
     filter: drop-shadow(-33px 30px 10px #00000030);
 
 }
+
 
 
 @keyframes crash-landing {
@@ -58,7 +60,7 @@ body {
     }
 
     75% {
-        transform: translate(0%, 15%);
+        transform: translate(0%, 25%);
     }
 
     100% {
@@ -99,3 +101,6 @@ footer {
     transform: scale(1.25);
     transition: 0.3s;
 }
+
+
+@media screen (min-width:480px) {}
