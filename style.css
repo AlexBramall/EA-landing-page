@@ -17,7 +17,7 @@ body {
 .container {
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: inherit;
     height: auto;
 }
 
@@ -27,17 +27,16 @@ body {
     width: 6vw;
     min-width: 70px;
     height: auto;
-    animation: crash-landing 7s ease-in-out infinite alternate;
+    animation: crash-landing 5s ease-in-out infinite alternate-reverse;
     filter: drop-shadow(-33px 30px 10px #00000030);
     position: absolute;
-    margin-left: 5%;
-
+    margin: -.5em;
 }
 
 .main-logo {
     display: flex;
-    width: 50vw;
-    min-width: 475px;
+    width: 40vw;
+    min-width: 325px;
     margin: auto;
     height: auto;
     filter: drop-shadow(-33px 30px 10px #00000030);
@@ -52,15 +51,15 @@ body {
     }
 
     25% {
-        transform: translate(5%, 5%);
+        transform: translate(15%, 15%);
     }
 
     50% {
-        transform: translate(10%, 5%);
+        transform: translate(15%, 5%);
     }
 
     75% {
-        transform: translate(0%, 25%);
+        transform: translate(10%, 5%);
     }
 
     100% {
