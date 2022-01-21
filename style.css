@@ -10,32 +10,37 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    min-height: 100vh
+    min-height: 100vh;
+    position: relative;
 }
 
-header {
-    padding-top: 10%;
+.container {
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    max-height: 100vh;
-
+    flex-direction: column;
 }
+
+
 
 #ship-logo {
+    display: flex;
+    position: absolute;
     width: 7%;
-    min-width: 40px;
     height: auto;
+    margin: auto;
     animation: crash-landing 10s ease-in-out infinite alternate;
-    padding-bottom: 4%;
+    filter: drop-shadow(-33px 30px 10px #00000030);
+    margin-left: 33%;
 
 }
 
 .main-logo {
+    display: flex;
     width: 40%;
-    min-width: 350px;
+    margin: auto;
     height: auto;
     filter: drop-shadow(-33px 30px 10px #00000030);
+
 }
 
 
