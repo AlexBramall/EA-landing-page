@@ -101,6 +101,3 @@ footer {
     transform: scale(1.25);
     transition: 0.3s;
 }
-
-
-@media screen (min-width:480px) {}
